@@ -1,0 +1,99 @@
+#portfolio{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 30px;
+}
+
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.worksImg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    transition: filter 0.3s ease;
+}
+
+.worksbtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: black;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.portfolioItem {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.portfolioItem:hover .worksImg {
+    filter: blur(0.8px);
+}
+
+.portfolioItem:hover {
+    background-color: rgba(1, 1, 20, 0.1); /* Darker background on hover */
+}
+
+.exploreOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    display: none;
+    z-index: 10;
+}
+
+.portfolioItem:hover .exploreOverlay {
+    display: block;
+}
+
+.portfolioDescription {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width : 585px) {
+    .worksImg{
+        height: 48vw;
+    }
+}
