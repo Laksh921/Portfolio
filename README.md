@@ -2,6 +2,8 @@
 
 Welcome to my portfolio website! This project showcases my skills and experience as a web designer, highlighting my journey in creating user-friendly and visually appealing web applications.
 
+The Site is live at https://shiny-souffle-9540ca.netlify.app/ 
+
 ## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
