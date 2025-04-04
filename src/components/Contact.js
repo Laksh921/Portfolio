@@ -44,7 +44,7 @@ const Contact = () => {
                         <a href="https://www.instagram.com/__laksh.92__/" target="_blank" rel="noopener noreferrer" title="Instagram">
                             <img src={Instagram} alt="Instagram" className="link" />
                         </a>
-                        <a href="https://www.linkedin.com/in/lakshya-bansal-915046247" target="_blank" rel="noopener noreferrer" title="Linkedin">
+                        <a href="https://www.linkedin.com/in/lakshya-bansal-kiit26/" target="_blank" rel="noopener noreferrer" title="Linkedin">
                             <img src={Linkedin} alt="LinkedIn" className="link" />
                         </a>
                         <a href="https://github.com/Laksh921" target="_blank" rel="noopener noreferrer" title="GitHub">

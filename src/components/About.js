@@ -3,6 +3,7 @@ import './About.css';
 import UIDesign from '../assets/UI.png';
 import WebDesign from '../assets/Web.png';
 import GraphicDesign from '../assets/Graphic.png';
+import MachineLearning from '../assets/MachineLearning.png'
 const About = () => {
     return (
         <section id = 'About'>
@@ -28,6 +29,13 @@ const About = () => {
                     <div className="skillBarText">
                         <h2>Graphic Designer</h2>
                         <p>Creative graphic designer passionate about transforming ideas into compelling visuals that communicate messages and inspire audiences.</p>
+                    </div>
+                </div>
+                    <div className="skillBar">
+                    <img src={MachineLearning} alt="MachineLearning" className="skillBarImg" />
+                    <div className="skillBarText">
+                        <h2>Machine Learning Developer</h2>
+                        <p>Enthusiastic machine learning developer with a strong foundation in algorithms, data analysis, and model deployment to build intelligent, data-driven solutions.</p>
                     </div>
                 </div>
             </div>

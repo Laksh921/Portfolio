@@ -1,12 +1,11 @@
 import React from "react";
 import './portfolio.css';
-import portfolio1 from '../assets/portfolio-1.png';
-import portfolio2 from '../assets/portfolio-2.jpg';
 import portfolio3 from '../assets/portfolio-3.png';
 import portfolio4 from '../assets/portfolio-4.png';
 import portfolio5 from '../assets/portfolio-5.png';
 import portfolio6 from '../assets/portfolio-6.png';
 import client_server from '../assets/client-server.png';
+import Placements from '../assets/kaggle.png'
 
 const portfolio = () => {
     return (
@@ -21,13 +20,21 @@ const portfolio = () => {
                         Explore this section
                     </a>
                 </div>
-                <img src= {portfolio2} alt="portfolio2" className="worksImg" />
+                <div className="portfolioItem">
+                    <img src={Placements} alt="Placement_Prediction_App" className="worksImg" />
+                    <p className="portfolioDescription">Student Placement Prediction Web App</p>
+                    <a href="https://github.com/Laksh921/Placement_Prediction_App" target="_blank" rel="noopener noreferrer">
+                        https://github.com/Laksh921/Placement_Prediction_App
+                    </a>
+                    <a href="https://github.com/Laksh921/Placement_Prediction_App" target="_blank" rel="noopener noreferrer" className="exploreOverlay">
+                        Explore this section
+                    </a>
+                </div>
                 <img src= {portfolio3} alt="portfolio3" className="worksImg" />
                 <img src= {portfolio4} alt="portfolio4" className="worksImg" />
                 <img src= {portfolio5} alt="portfolio5" className="worksImg" />
                 <img src= {portfolio6} alt="portfolio6" className="worksImg" />
             </div>
-            <button className="worksbtn">See More</button>
         </section>
     )
 }
