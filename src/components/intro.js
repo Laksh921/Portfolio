@@ -2,7 +2,6 @@ import React from "react";
 import './intro.css';
 import bg from '../assets/Lakshyaaa.png';
 import binning from '../assets/bag.png';
-import { Link } from "react-scroll";
 const Intro = () => {
     return(
         <section id="intro">

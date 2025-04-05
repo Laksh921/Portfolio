@@ -6,8 +6,6 @@ import logo from '../assets/logo.jpg'; // Ensure this path is correct
 import contactImg from '../assets/contact.png';
 import { Link } from 'react-scroll';
 import menu from '../assets/menu.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     const[showMenu, setShowMenu] = useState(false);
