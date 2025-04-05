@@ -38,7 +38,7 @@
 }
 
 .introName{
-    color: yellow;
+    color: blueviolet;
 }
 
 .introPara{
@@ -55,7 +55,7 @@
 }
 
 .btn{
-    background: yellow;
+    background: blueviolet;
     color: black;
     border: solid white;
     margin: 1rem 0;
@@ -79,7 +79,7 @@
 
 .Resume{
     color: black;
-    border: solid yellow;
+    border: solid blueviolet;
     margin: 1rem 0;
     padding: 0.75rem 2rem;
     border-radius: 0.5rem;

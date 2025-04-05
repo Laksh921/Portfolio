@@ -23,8 +23,8 @@ const portfolio = () => {
                 <div className="portfolioItem">
                     <img src={Placements} alt="Placement_Prediction_App" className="worksImg" />
                     <p className="portfolioDescription">Student Placement Prediction Web App</p>
-                    <a href="https://github.com/Laksh921/Placement_Prediction_App" target="_blank" rel="noopener noreferrer">
-                        https://github.com/Laksh921/Placement_Prediction_App
+                    <a href="https://placement-prediction-app-g2zf.onrender.com" target="_blank" rel="noopener noreferrer">
+                        Deployed Application
                     </a>
                     <a href="https://github.com/Laksh921/Placement_Prediction_App" target="_blank" rel="noopener noreferrer" className="exploreOverlay">
                         Explore this section

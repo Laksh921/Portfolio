@@ -30,15 +30,15 @@
   }
 
   .desktopMenuListItem:hover{
-    color: #FFEB3B;
+    color: white;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid blueviolet;
   }
 
   .desktopMenuBtn{
     background: whitesmoke;
     color: black;
-    border: solid #FFEB3B;
+    border: solid blueviolet;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,9 +109,9 @@
   }
   
   .active{
-    color: #FFEB3B;
+    color: blueviolet;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid blueviolet;
   }
 
   .mobMenu{
